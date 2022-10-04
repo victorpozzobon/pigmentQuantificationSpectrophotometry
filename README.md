@@ -27,7 +27,7 @@ You can rerun _PSO_IncreasingNbWL.py_ with _screeningMode_ set to _False_ to run
 __Step 4: validation__
 Load the training and the validation datasets. Calibrate the PLS algorithm with the identified wavelengths on the training dataset and qualify its performances on the validation dataset. You can, for example, print predicted results vs. HPLC measurements (as displayed below for lutein).
 
-<img src="./Fig_Lut_1biss.png" width="200">
+<img src="./Fig_Lut_1biss.png" alt="A missing picture" width="400">
 
 ## Contact
 
