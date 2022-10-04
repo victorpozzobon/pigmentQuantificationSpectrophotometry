@@ -13,7 +13,22 @@ The whole curated dataset is contained within _Pigment_Spectra_full.npy_ (and _P
 
 ## How to run
 
-TO BE COMPLETED SOON
+__Step 1: algorithm testing__
+The aim is to assess the performance of the PLS algorithm with an increasing number of wavelength. To do so, a Particle Swarm Optimizer (PSO) selecting the wavelengths is nested in two loops. The first loop increases the number of available wavelength (1 to 10). The second loop repeats the process a high number of times (100) to create a random variable population.
+
+To do so, simply run _PSO_IncreasingNbWL.py_, it will store the results of each run in a folder named _Screening_.
+
+__Step 2: identifying the optimum__
+Once the data are generated, simply load the results in your favourite software and draw the results. You can either identifying the best performing configuration (_.i.e._ number of wavelengths) graphical or use a statistical test. In our case, we used classical Python library (_Matplotlib_) for graphing and _statsmodels_ for the analysis.
+
+__Step 3 (optional): confirming the optimum__
+You can rerun _PSO_IncreasingNbWL.py_ with _screeningMode_ set to _False_ to run the PSO algorithm for only one number of wavelengths and confirm that the best performing run obtain previously was actually the optimum. Alternatively, you can directly extract the results formerly obtained from the _Screening_ folder.
+
+__Step 4: validation__
+Load the training and the validation datasets. Calibrate the PLS algorithm with the identified wavelengths on the training dataset and qualify its performances on the validation dataset. You can, for example, print predicted results vs. HPLC measurements (as displayed below for lutein).
+
+![Image not found](./Fig_Lut_1biss.png?raw=true)
+
 
 ## Contact
 
