@@ -30,6 +30,7 @@ Load the training and the validation datasets. Calibrate the PLS algorithm with 
 <p align="center">
     <img src="./Fig_Lut_1biss.png" alt="A missing picture" width="400">
 </p>
+
 ## Contact
 
 Please feel free to contact me. You can find my details on: https://victorpozzobon.github.io/
