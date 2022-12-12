@@ -3,7 +3,7 @@
 Repository hosting the Python codes (please be kind with the typos in the comments) and data associated with the article:
 [Lutein, violaxanthin, and zeaxanthin spectrophotometric quantification: a machine learning approach.](https://www.springer.com/journal/10811)
 Pozzobon, V., & Camarena-Bernard, C. (2022).
-*Journal of Applied Phycology*, pp-pp.
+*Journal of Applied Phycology*, 1-12.
 
 It was tested successfully on October 2022.
 
